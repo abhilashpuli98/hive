@@ -372,11 +372,6 @@ def register_tools(
             "orgs": orgs,
             "type": u.get("type", ""),
         }
-
-    # -----------------------------------------------------------------
-    # Inference API Tools
-    # -----------------------------------------------------------------
-
     @mcp.tool()
     def huggingface_run_inference(
         model_id: str,
